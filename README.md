@@ -1,7 +1,7 @@
 # M-SDK Sanitaire Sàrl — site vitrine
 
 Site one-page (français) pour **M-SDK Sanitaire Sàrl**, entreprise sanitaire et chauffage
-à Écublens (VD). Objectif : générer des appels et des demandes de devis,
+à Écublens (VD), actif à Lausanne et dans toute la région. Objectif : générer des appels et des demandes de devis,
 notamment depuis Google Ads sur mobile.
 
 **En ligne :** https://welcometothenextlevel.github.io/msdk-sanitaire/
@@ -16,6 +16,9 @@ index.html        page complète + données structurées JSON-LD
 css/style.css     design system et styles
 js/main.js        visionneuse photos, révélations au scroll, validation du formulaire
 img/              photos de chantier optimisées (WebP) + logo
+                  `svc-*.webp` = crop 16:10 desktop · `svc-*-m.webp` = crop 4:3 mobile
+                  (servis via <picture>, chaque fichier a exactement le ratio
+                  de sa boîte CSS — aucun recadrage par object-fit)
 ```
 
 ## Conversion

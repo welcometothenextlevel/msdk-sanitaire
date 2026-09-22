@@ -433,6 +433,7 @@ p { text-wrap: pretty; }
   color: var(--stone-500);
   font-variant-numeric: tabular-nums;
 }
+.svc__img picture { display: block; width: 100%; height: 100%; }
 .svc__img {
   aspect-ratio: 4 / 3;
   overflow: hidden;
