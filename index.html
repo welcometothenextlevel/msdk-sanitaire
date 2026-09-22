@@ -30,6 +30,17 @@
 <a class="skip" href="#devis">Aller au formulaire de devis</a>
 
 <!-- ============================ HEADER ============================ -->
+<div class="topbar">
+  <div class="wrap topbar__inner">
+    <span><b>Dépannage sanitaire</b> &amp; chauffage</span>
+    <span class="dot">·</span>
+    <span class="hide-xs">Écublens, Lausanne &amp; région</span>
+    <span class="dot hide-xs">·</span>
+    <span class="hide-xs">Ouvert <b>6 jours sur 7</b>, 7h30 – 17h00</span>
+    <span class="only-xs">Lun–Sam <b>7h30 – 17h00</b></span>
+  </div>
+</div>
+
 <header class="header" id="top">
   <div class="wrap header__inner">
     <a class="logo" href="#top" aria-label="M-SDK Sanitaire Sàrl, retour en haut de page">
@@ -41,6 +52,7 @@
     </a>
 
     <nav class="nav" aria-label="Navigation principale">
+      <a href="#urgences">Dépannage</a>
       <a href="#services">Prestations</a>
       <a href="#realisations">Réalisations</a>
       <a href="#avis">Avis</a>
@@ -52,6 +64,7 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.8 2Z"/></svg>
       079 128 87 78
     </a>
+    <a class="header__quote" href="#devis">Devis gratuit</a>
   </div>
 </header>
 
@@ -67,12 +80,14 @@
           <span><b>5,0</b> sur Google · 8 avis clients</span>
         </a>
 
-        <h1>Votre sanitaire à Écublens,<br><span class="accent">sans mauvaise surprise.</span></h1>
+        <h1>Une fuite, un WC bouché,<br><span class="accent">une panne d'eau chaude&nbsp;?</span></h1>
 
         <p class="hero__sub">
-          Dépannage sanitaire, installation, rénovation de salle de bain et chauffage.
-          Un seul interlocuteur, un devis clair et gratuit&nbsp;— avant le premier coup de clé.
+          Votre sanitaire à Écublens. On se déplace pour le dépannage, la réparation et
+          l'installation à Lausanne et dans toute la région&nbsp;— devis gratuit, prix annoncé avant de commencer.
         </p>
+
+
 
         <div class="btn-row">
           <a class="btn btn--red btn--lg" href="tel:+41791288778" data-track="call-hero">
@@ -86,12 +101,24 @@
           <a class="btn btn--ghost btn--lg" href="#devis">Devis gratuit</a>
         </div>
 
-        <ul class="trust" role="list">
-          <li class="trust__item"><div class="trust__k">5,0<span class="stars" style="font-size:.9rem" aria-hidden="true"> ★</span></div><div class="trust__v">8 avis Google vérifiés</div></li>
-          <li class="trust__item"><div class="trust__k">Gratuit</div><div class="trust__v">Devis sans engagement</div></li>
-          <li class="trust__item"><div class="trust__k">Sàrl</div><div class="trust__v">Au RC depuis&nbsp;2022</div></li>
-          <li class="trust__item"><div class="trust__k">Lausanne</div><div class="trust__v">Écublens &amp; toute la région</div></li>
+        <ul class="ticks" role="list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5" stroke-width="1.6"/><path d="m8 12.3 2.6 2.6L16 9.5"/></svg><span>Devis gratuit et sans engagement</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5" stroke-width="1.6"/><path d="m8 12.3 2.6 2.6L16 9.5"/></svg><span>Ouvert 6 jours sur 7, lundi au samedi</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5" stroke-width="1.6"/><path d="m8 12.3 2.6 2.6L16 9.5"/></svg><span>Entreprise locale, basée à Écublens</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5" stroke-width="1.6"/><path d="m8 12.3 2.6 2.6L16 9.5"/></svg><span>5,0 ★ sur 8 avis Google</span></li>
         </ul>
+
+        <div class="quickpick">
+          <span class="quickpick__lbl">Votre problème, en un clic</span>
+          <div class="quickpick__row">
+            <button type="button" data-problem="Fuite d'eau">Fuite d'eau</button>
+            <button type="button" data-problem="Canalisation bouchée">Canalisation bouchée</button>
+            <button type="button" data-problem="WC ou chasse d'eau">WC / chasse d'eau</button>
+            <button type="button" data-problem="Chauffe-eau / eau chaude">Pas d'eau chaude</button>
+            <button type="button" data-problem="Robinetterie">Robinet qui goutte</button>
+            <button type="button" data-problem="Radiateur / chauffage">Radiateur froid</button>
+          </div>
+        </div>
       </div>
 
       <div class="hero__media">
@@ -109,11 +136,76 @@
 <section class="urgence">
   <div class="wrap urgence__inner">
     <div class="urgence__txt">
-      <strong>Une fuite, un WC bouché, un chauffe-eau en panne&nbsp;?</strong>
-      <span>Appelez directement&nbsp;— on vous dit tout de suite si on peut passer.</span>
+      <strong>Besoin d'une intervention aujourd'hui&nbsp;?</strong>
+      <span>Décrivez-nous le problème&nbsp;: on vous dit tout de suite si on peut passer, et ce que ça coûte.</span>
     </div>
     <a class="btn" href="tel:+41791288778" data-track="call-urgence">Appeler maintenant</a>
     <a class="btn" href="https://wa.me/41791288778?text=Bonjour%2C%20j%27ai%20un%20probl%C3%A8me%20sanitaire%20urgent%20%C3%A0%20" target="_blank" rel="noopener" data-track="wa-urgence">Envoyer une photo sur WhatsApp</a>
+  </div>
+</section>
+
+<!-- ============================ MARQUEE ============================ -->
+<div class="marquee">
+  <div class="marquee__track">
+    <div class="marquee__group"><span>Devis gratuit</span><span>Ouvert 6 jours sur 7</span><span>Dépannage &amp; réparation</span><span>5,0 ★ sur Google</span><span>Écublens · Lausanne · région</span><span>Prix annoncé avant les travaux</span><span>Sàrl inscrite au registre du commerce</span><span>Un seul interlocuteur</span></div>
+    <div class="marquee__group" aria-hidden="true"><span>Devis gratuit</span><span>Ouvert 6 jours sur 7</span><span>Dépannage &amp; réparation</span><span>5,0 ★ sur Google</span><span>Écublens · Lausanne · région</span><span>Prix annoncé avant les travaux</span><span>Sàrl inscrite au registre du commerce</span><span>Un seul interlocuteur</span></div>
+  </div>
+</div>
+
+<!-- ============================ URGENCES ============================ -->
+<section class="section section--tight" id="urgences">
+  <div class="wrap">
+    <div class="shead shead--split reveal">
+      <div>
+        <p class="eyebrow">Dépannage</p>
+        <h2>Ce qu'on vient réparer <span class="accent">le plus souvent.</span></h2>
+      </div>
+      <p class="lede">Un problème sanitaire ne s'arrange jamais tout seul. Décrivez-le au téléphone ou envoyez-nous une photo sur WhatsApp&nbsp;: vous saurez tout de suite si on peut passer, et ce que ça coûte.</p>
+    </div>
+
+    <div class="urgences reveal">
+      <article class="urg">
+        <div class="urg__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 6.6 10a7.3 7.3 0 1 0 10.8 0L12 2.7Z"/></svg></div>
+        <h3>Fuite d'eau</h3>
+        <p>Sous l'évier, derrière un WC, au plafond du voisin&nbsp;: on cherche l'origine avant de casser quoi que ce soit.</p>
+        <a class="urg__go" href="tel:+41791288778" data-track="call-urg">Appeler pour ce problème <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6"/></svg></a>
+      </article>
+      <article class="urg">
+        <div class="urg__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h5v10H3zM16 7h5v10h-5z"/><path d="M8 12h8"/><path d="M11 4v4M13 4v4"/></svg></div>
+        <h3>Canalisation bouchée</h3>
+        <p>Évier, douche, baignoire ou colonne qui refoule&nbsp;: débouchage et contrôle de l'évacuation.</p>
+        <a class="urg__go" href="tel:+41791288778" data-track="call-urg">Appeler pour ce problème <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6"/></svg></a>
+      </article>
+      <article class="urg">
+        <div class="urg__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h3v7H7z"/><path d="M4 10h13a0 0 0 0 1 0 0 6 6 0 0 1-6 6H9a5 5 0 0 1-5-5v-1Z"/><path d="M9 16v5h5"/></svg></div>
+        <h3>WC &amp; chasse d'eau</h3>
+        <p>Chasse qui coule en continu, cuvette bouchée, mécanisme fatigué, plaque de commande cassée.</p>
+        <a class="urg__go" href="tel:+41791288778" data-track="call-urg">Appeler pour ce problème <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6"/></svg></a>
+      </article>
+      <article class="urg">
+        <div class="urg__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2.5" width="14" height="14" rx="4"/><path d="M9.5 7.5h5M9.5 11h5"/><path d="M9 16.5v5M15 16.5v5"/></svg></div>
+        <h3>Plus d'eau chaude</h3>
+        <p>Boiler en panne, groupe de sécurité qui fuit, chauffe-eau entartré&nbsp;: diagnostic et remise en service.</p>
+        <a class="urg__go" href="tel:+41791288778" data-track="call-urg">Appeler pour ce problème <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6"/></svg></a>
+      </article>
+      <article class="urg">
+        <div class="urg__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13h9a4 4 0 0 0 4-4V7"/><path d="M14 7h6"/><path d="M4 13v4h5v-4"/><path d="M17 12.5v3"/></svg></div>
+        <h3>Robinetterie</h3>
+        <p>Mitigeur qui goutte, débit faible, cartouche usée, raccord qui suinte&nbsp;: réparation ou remplacement.</p>
+        <a class="urg__go" href="tel:+41791288778" data-track="call-urg">Appeler pour ce problème <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6"/></svg></a>
+      </article>
+      <article class="urg">
+        <div class="urg__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5v11M9 5v11M13 5v11M17 5v11"/><path d="M3 16.5h18M6 19.5v1.5M18 19.5v1.5"/><path d="M3 16.5v3h18v-3"/></svg></div>
+        <h3>Radiateur froid</h3>
+        <p>Radiateur qui ne chauffe plus, air dans le circuit, pression trop basse, sèche-serviettes hors service.</p>
+        <a class="urg__go" href="tel:+41791288778" data-track="call-urg">Appeler pour ce problème <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6"/></svg></a>
+      </article>
+    </div>
+
+    <div class="btn-row reveal" style="margin-top:30px">
+      <a class="btn btn--red btn--lg" href="tel:+41791288778" data-track="call-urgences"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.8 2Z"/></svg>079 128 87 78</a>
+      <a class="btn btn--ghost btn--lg" href="#devis">Décrire mon problème par écrit</a>
+    </div>
   </div>
 </section>
 
@@ -248,6 +340,20 @@
   </div>
 </section>
 
+<!-- ============================ CTA ============================ -->
+<section class="ctaband ctaband--red">
+  <div class="wrap ctaband__inner">
+    <div>
+      <h2>Un devis, c'est gratuit. Un dégât des eaux, non.</h2>
+      <p>Plus on intervient tôt, moins la réparation coûte. Un appel suffit pour savoir où vous en êtes&nbsp;— et vous n'êtes engagé à rien.</p>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn--lg" href="tel:+41791288778" data-track="call-band1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.8 2Z"/></svg>079 128 87 78</a>
+      <a class="btn btn--outline btn--lg" href="#devis">Demander un devis</a>
+    </div>
+  </div>
+</section>
+
 <!-- ============================ AVIS ============================ -->
 <section class="section" id="avis">
   <div class="wrap">
@@ -363,6 +469,33 @@
         <li><b>Inscrite au registre du commerce</b><span>depuis décembre 2022</span></li>
         <li><b>Horaires</b><span>Lundi – samedi, 7h30 – 17h00</span></li>
       </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ POURQUOI ============================ -->
+<section class="section section--tight" id="pourquoi">
+  <div class="wrap">
+    <div class="shead reveal">
+      <p class="eyebrow">Pourquoi nous</p>
+      <h2>Pourquoi M-SDK plutôt <span class="accent">qu'un autre.</span></h2>
+    </div>
+    <div class="why reveal">
+      <article class="why__item">
+        <div class="why__n">01</div>
+        <h3>Vous parlez à la personne qui vient</h3>
+        <p>Pas de centrale d'appel, pas de sous-traitance en cascade. Celui qui répond au téléphone est celui qui se déplace, et qui reste joignable après l'intervention.</p>
+      </article>
+      <article class="why__item">
+        <div class="why__n">02</div>
+        <h3>Le prix est annoncé avant</h3>
+        <p>On diagnostique, on annonce le montant, et on ne commence qu'ensuite. Le devis est gratuit et sans engagement, même si vous décidez finalement de ne rien faire.</p>
+      </article>
+      <article class="why__item">
+        <div class="why__n">03</div>
+        <h3>Une entreprise d'ici, vérifiable</h3>
+        <p>Sàrl inscrite au registre du commerce (CHE-323.718.742), atelier à Écublens, et huit avis Google publics&nbsp;— tous à cinq étoiles. Rien que vous ne puissiez contrôler vous-même.</p>
+      </article>
     </div>
   </div>
 </section>
@@ -511,6 +644,20 @@
   </div>
 </section>
 
+<!-- ============================ CTA ============================ -->
+<section class="ctaband">
+  <div class="wrap ctaband__inner">
+    <div>
+      <h2>Encore une question&nbsp;? Posez-la de vive voix.</h2>
+      <p>Deux minutes au téléphone valent mieux qu'une heure à chercher. Appelez, ou envoyez une photo du problème sur WhatsApp&nbsp;: souvent, ça suffit pour vous répondre.</p>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn--red btn--lg" href="tel:+41791288778" data-track="call-band2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.8 2Z"/></svg>079 128 87 78</a>
+      <a class="btn btn--on-dark btn--lg" href="https://wa.me/41791288778?text=Bonjour%20M-SDK%20Sanitaire%2C%20j%27aimerais%20un%20devis." target="_blank" rel="noopener" data-track="wa-band2">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
 <!-- ============================ FAQ ============================ -->
 <section class="section section--tight" id="faq">
   <div class="wrap">
@@ -520,6 +667,10 @@
     </div>
 
     <div class="faq reveal">
+      <details open>
+        <summary>Faites-vous du dépannage, ou seulement de l'installation&nbsp;?</summary>
+        <div class="faq__a">Les deux, et le dépannage représente une grande partie de notre activité&nbsp;: fuites, canalisations bouchées, WC, chauffe-eau, robinetterie et radiateurs. Appelez le 079 128 87 78 pendant nos heures d'ouverture et décrivez le problème&nbsp;; vous saurez tout de suite si nous pouvons passer.</div>
+      </details>
       <details>
         <summary>Le devis est-il vraiment gratuit&nbsp;?</summary>
         <div class="faq__a">Oui. L'établissement du devis est gratuit et sans engagement, que vous acceptiez les travaux ou non. Vous recevez un prix écrit avant que quoi que ce soit ne commence.</div>
@@ -577,6 +728,7 @@
       <div>
         <h4>Navigation</h4>
         <ul role="list">
+          <li><a href="#urgences">Dépannage</a></li>
           <li><a href="#realisations">Réalisations</a></li>
           <li><a href="#avis">Avis clients</a></li>
           <li><a href="#zone">Zone d'intervention</a></li>
@@ -705,6 +857,7 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {"@type":"Question","name":"Faites-vous du dépannage, ou seulement de l'installation ?","acceptedAnswer":{"@type":"Answer","text":"Les deux, et le dépannage représente une grande partie de notre activité : fuites, canalisations bouchées, WC, chauffe-eau, robinetterie et radiateurs. Appelez le 079 128 87 78 pendant nos heures d'ouverture et décrivez le problème."}},
     {"@type":"Question","name":"Le devis est-il vraiment gratuit ?","acceptedAnswer":{"@type":"Answer","text":"Oui. L'établissement du devis est gratuit et sans engagement, que vous acceptiez les travaux ou non. Vous recevez un prix écrit avant que quoi que ce soit ne commence."}},
     {"@type":"Question","name":"Intervenez-vous en cas de fuite ou de panne urgente ?","acceptedAnswer":{"@type":"Answer","text":"Oui, le dépannage fait partie de notre cœur de métier. Appelez le 079 128 87 78 pendant nos heures d'ouverture (lundi à samedi, 7h30–17h00) : nous vous dirons immédiatement si nous pouvons passer, et quand."}},
     {"@type":"Question","name":"Dans quelles communes intervenez-vous ?","acceptedAnswer":{"@type":"Answer","text":"À Écublens, à Lausanne et dans toute la région lausannoise : Renens, Chavannes-près-Renens, Crissier, Prilly, Pully, Épalinges, Le Mont-sur-Lausanne, Romanel-sur-Lausanne, Cheseaux, Bussigny, Villars-Sainte-Croix, Saint-Sulpice, Denges, Préverenges, Lonay et Morges."}},

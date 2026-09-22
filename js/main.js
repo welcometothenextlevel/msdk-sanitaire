@@ -84,6 +84,38 @@
     }, { passive: true });
   }
 
+  /* ---- sélecteur de problème du héros ----
+     Préremplit le formulaire avec le problème choisi et y amène le visiteur,
+     pour qu'il n'ait plus qu'à laisser son numéro. */
+  var picks = $$('.quickpick button');
+  picks.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var problem = b.dataset.problem || '';
+      var card = $('#form-card');
+      var sel  = $('#f-obj');
+      var msg  = $('#f-msg');
+
+      if (sel) {
+        var wanted = /radiateur|chauffage/i.test(problem) ? 'Chauffage' : 'Dépannage / réparation';
+        for (var i = 0; i < sel.options.length; i++) {
+          if (sel.options[i].text === wanted) { sel.selectedIndex = i; break; }
+        }
+      }
+      if (msg && !msg.value.trim()) { msg.value = problem + ' — '; }
+
+      var target = document.getElementById('devis');
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      if (card) {
+        card.classList.add('is-flagged');
+        window.setTimeout(function () { card.classList.remove('is-flagged'); }, 2200);
+      }
+      window.setTimeout(function () {
+        if (msg) { msg.focus(); msg.setSelectionRange(msg.value.length, msg.value.length); }
+      }, 700);
+    });
+  });
+
   /* ---- formulaire de devis ---- */
   var form = $('#quote-form');
   var card = $('#form-card');

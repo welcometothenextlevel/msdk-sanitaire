@@ -23,11 +23,24 @@ img/              photos de chantier optimisées (WebP) + logo
 
 ## Conversion
 
+Structure inspirée des landing pages de dépannage qui convertissent bien
+(type swiss-depaneo.ch), mais **aucune affirmation invérifiable** : pas de
+« 24h/24 », pas de « intervention en -1h », pas de compteur de clients inventé.
+Les arguments utilisés sont tous vérifiables : devis gratuit, ouvert 6 jours
+sur 7, entreprise locale, 5,0 ★ sur 8 avis Google, Sàrl inscrite au RC.
+
+
+- Barre utilitaire tout en haut : « Dépannage sanitaire & chauffage · ouvert 6 j/7 »
+- Titre H1 formulé comme le problème du visiteur, pas comme le nom de l'entreprise
+- Sélecteur « votre problème en un clic » : préremplit et cible le formulaire
+- Section dépannage dédiée : 6 pannes courantes, chacune avec un bouton d'appel
+- Bandeau défilant d'arguments + 2 bandeaux d'appel répartis dans la page
+- Bloc « pourquoi nous » qui traite les objections
 - Bouton d'appel permanent dans l'en-tête, à toutes les largeurs
 - Barre d'actions fixe en bas sur mobile : **Appeler · WhatsApp · Devis**
 - Bulle WhatsApp flottante sur desktop
 - Bandeau urgence rouge juste sous le héros
-- 10 liens `tel:` et 7 liens WhatsApp répartis dans la page
+- 19 liens `tel:` et 8 liens WhatsApp répartis dans la page
 - Formulaire de devis court (6 champs, 4 obligatoires)
 
 ## Coordonnées utilisées
